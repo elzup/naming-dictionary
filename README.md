@@ -62,3 +62,10 @@ alignable words. same length.
 | previous | prev | prev |
 | next     | next | next |
 | current  | curr |    - |
+
+| word    |
+| ------- |
+| push    |
+| pop     |
+| unshift |
+| shift   |
