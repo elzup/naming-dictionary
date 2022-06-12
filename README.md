@@ -2,66 +2,63 @@
 
 ## good
 
-```
-head
-tail
-```
+alignable words. same length.
 
-```
-white
-black
-```
+| word |
+| ---: |
+| head |
+| tail |
 
-```
-allow
-block
-```
+|  word | alt |
+| ----: | --: |
+| black |   b |
+| white |   w |
 
-```
-create
-update
-delete
-```
+|  word |
+| ----: |
+| allow |
+| block |
+
+|   word |     |
+| -----: | --: |
+| create |   - |
+| update | upd |
+| delete | del |
 
 # ragged (bad, sad)
 
-| word      | draft |
-| --------- | ----- |
-| latitude  | lat   |
-| longitude | lng   |
+| word   | alt |     |     |
+| ------ | --: | --: | --: |
+| left   |   l |   - |   - |
+| right  |   r |   - |   - |
+| up     |   u |   - |  up |
+| down   |   d |   - |  dw |
+| top    |   t | top |   - |
+| bottom |   b | btm |   - |
 
-| word   | draft |
-| ------ | ----- |
-| left   | l     |
-| right  | r     |
-| up     | u     |
-| down   | d     |
-| top    | t     |
-| bottom | b     |
+| word    | alt |
+| ------- | --- |
+| public  |     |
+| private |     |
 
-| word    | draft |
-| ------- | ----- |
-| public  |       |
-| private |       |
+| word    | alt |     |
+| ------- | --: | --: |
+| margin  |   m |  ma |
+| border  |   b |  bo |
+| padding |   p |  pa |
 
-| word    | draft |
-| ------- | ----- |
-| margin  |       |
-| border  |       |
-| padding |       |
+| word | alt |
+| ---- | --: |
+| to   |  to |
+| from |  fr |
 
-| word | draft |
-| ---- | ----- |
-| to   | to    |
-| from | fr    |
+| word      | alt |     |
+| --------- | --: | --: |
+| longitude | lon | lng |
+| latitude  | lat | lat |
 
-| word      | draft |
-| --------- | ----- |
-| longitude | lon   |
-| latitude  | lat   |
-
-| word     | draft |
-| -------- | ----- |
-| current  | lon   |
-| previous | prev  |
-| next     | next  |
+| word     |  alt |      |
+| -------- | ---: | ---: |
+| previous | prev | prev |
+| next     | next | next |
+| current  | curr |    - |
