@@ -63,7 +63,11 @@ delete
 |longitude|lon|
 |latitude|lat|
 
-current
-previous
-next
 
+
+
+|word|draft|
+|-|-|
+|current|lon|
+|previous|prev|
+|next|next|
