@@ -69,3 +69,9 @@ alignable words. same length.
 | pop     |
 | unshift |
 | shift   |
+
+| word  | alt |
+| ----- | --: |
+| start |   - |
+| begin | bgn |
+| end   | end |
