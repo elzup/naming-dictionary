@@ -75,3 +75,12 @@ alignable words. same length.
 | start |   - |
 | begin | bgn |
 | end   | end |
+
+| word    | alt |     |     |
+| ------- | --: | --: | --: |
+| year    | yrs |  yr |   y |
+| month   | mth |  mo |   m |
+| day     | day |  dy |   d |
+| hour    | hou |  hr |   h |
+| minutes | min |  mn |   n |
+| second  | sec |  sc |   s |
