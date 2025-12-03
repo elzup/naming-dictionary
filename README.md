@@ -1,3 +1,5 @@
+moved to https://www.notion.so/anozon/aligned-naming-2b808b0e9da88002affbdb91729c83a5
+
 # aligned-naming
 
 A reference for choosing variable name pairs that align in character length. Helps keep your code visually balanced.
@@ -78,11 +80,11 @@ Same length word pairs.
 | `begin` | bgn   |
 |   `end` | end   |
 
-|      word | alt#3 | alt#2 | alt#1   |
-| --------: | ----- | ----- | ------- |
-|    `year` | yrs   | yr    | y       |
-|   `month` | mth   | mo    | m       |
-|     `day` | day   | dy    | d       |
-|    `hour` | hou   | hr    | h       |
-| `minutes` | min   | mn    | n / M   |
-|  `second` | sec   | sc    | s       |
+|      word | alt#3 | alt#2 | alt#1 |
+| --------: | ----- | ----- | ----- |
+|    `year` | yrs   | yr    | y     |
+|   `month` | mth   | mo    | m     |
+|     `day` | day   | dy    | d     |
+|    `hour` | hou   | hr    | h     |
+| `minutes` | min   | mn    | n / M |
+|  `second` | sec   | sc    | s     |
