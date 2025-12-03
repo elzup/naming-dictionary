@@ -1,86 +1,88 @@
-# naming-dictionary
+# aligned-naming
 
-## good
+A reference for choosing variable name pairs that align in character length. Helps keep your code visually balanced.
 
-alignable words. same length.
+## Aligned
 
-| word |
-| ---: |
-| head |
-| tail |
+Same length word pairs.
 
-|  word | alt |
-| ----: | --: |
-| black |   b |
-| white |   w |
+|   word | alt |
+| -----: | --- |
+| `head` |     |
+| `tail` |     |
 
-|  word |
-| ----: |
-| allow |
-| block |
+|    word | alt#1 |
+| ------: | ----- |
+| `black` | b     |
+| `white` | w     |
 
-|   word |     |
-| -----: | --: |
-| create |   - |
-| update | upd |
-| delete | del |
+|    word | alt |
+| ------: | --- |
+| `allow` |     |
+| `block` |     |
 
-# ragged (bad, sad)
+|     word | alt#3 |
+| -------: | ----- |
+| `create` | -     |
+| `update` | upd   |
+| `delete` | del   |
 
-| word   | alt |     |     |
-| ------ | --: | --: | --: |
-| left   |   l |   - |   - |
-| right  |   r |   - |   - |
-| up     |   u |   - |  up |
-| down   |   d |   - |  dw |
-| top    |   t | top |   - |
-| bottom |   b | btm |   - |
+## Badly Aligned
 
-| word    | alt |
-| ------- | --- |
-| public  |     |
-| private |     |
+|     word | alt#1 | alt#3 | alt#2 |
+| -------: | ----- | ----- | ----- |
+|   `left` | l     | -     | -     |
+|  `right` | r     | -     | -     |
+|     `up` | u     | -     | up    |
+|   `down` | d     | -     | dw    |
+|    `top` | t     | top   | -     |
+| `bottom` | b     | btm   | -     |
 
-| word    | alt |     |
-| ------- | --: | --: |
-| margin  |   m |  ma |
-| border  |   b |  bo |
-| padding |   p |  pa |
+|      word | alt |
+| --------: | --- |
+|  `public` |     |
+| `private` |     |
 
-| word | alt |
-| ---- | --: |
-| to   |  to |
-| from |  fr |
+|      word | alt#1 | alt#2 |
+| --------: | ----- | ----- |
+|  `margin` | m     | ma    |
+|  `border` | b     | bo    |
+| `padding` | p     | pa    |
 
-| word      | alt |     |
-| --------- | --: | --: |
-| longitude | lon | lng |
-| latitude  | lat | lat |
+|   word | alt#2 |
+| -----: | ----- |
+|   `to` | to    |
+| `from` | fr    |
 
-| word     |  alt |      |
-| -------- | ---: | ---: |
-| previous | prev | prev |
-| next     | next | next |
-| current  | curr |    - |
+|        word | alt#3     |
+| ----------: | --------- |
+| `longitude` | lon / lng |
+|  `latitude` | lat       |
 
-| word    |
-| ------- |
-| push    |
-| pop     |
-| unshift |
-| shift   |
+|       word | alt#4 |
+| ---------: | ----- |
+| `previous` | prev  |
+|     `next` | next  |
+|  `current` | curr  |
 
-| word  | alt |
-| ----- | --: |
-| start |   - |
-| begin | bgn |
-| end   | end |
+|      word | alt |
+| --------: | --- |
+|    `push` |     |
+|     `pop` |     |
+| `unshift` |     |
+|   `shift` |     |
 
-| word    | alt |     |     |
-| ------- | --: | --: | --: |
-| year    | yrs |  yr |   y |
-| month   | mth |  mo |   m |
-| day     | day |  dy |   d |
-| hour    | hou |  hr |   h |
-| minutes | min |  mn |   n |
-| second  | sec |  sc |   s |
+|    word | alt#3 |
+| ------: | ----- |
+| `start` | -     |
+| `begin` | bgn   |
+|   `end` | end   |
+
+|      word | alt#3 | alt#2 | alt#1   |
+| --------: | ----- | ----- | ------- |
+|    `year` | yrs   | yr    | y       |
+|   `month` | mth   | mo    | m       |
+|     `day` | day   | dy    | d       |
+|    `hour` | hou   | hr    | h       |
+| `minutes` | min   | mn    | n / M   |
+|  `second` | sec   | sc    | s       |
